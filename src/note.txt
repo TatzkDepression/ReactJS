@@ -1,0 +1,4 @@
+day 1
++ cách tạo component: 2 cách (rfc,rcc)
++ Data Binding: đưa dữ liệu(data) lên layout
++ RenderWithMap: covert array chứa data trở thành array chứa các component HTML và đưa lên giao diện
