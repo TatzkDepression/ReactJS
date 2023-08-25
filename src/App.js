@@ -1,4 +1,8 @@
 import "./App.css";
+import ContentBai1 from "./Bai1/ContentBai1";
+import FooterBai1 from "./Bai1/FooterBai1";
+import HeaderBai1 from "./Bai1/HeaderBai1";
+import NavBai1 from "./Bai1/NavBai1";
 import DataBinding from "./DataBinding/DataBinding";
 import ClassComponent from "./DemoComponent/ClassComponent/ClassComponent";
 import FunctionComponent from "./DemoComponent/FunctionComponent/FunctionComponent";
@@ -17,7 +21,11 @@ function App() {
       {/* buổi 2 */}
       {/* <Ex_Layout /> */}
       {/* <DataBinding /> */}
-      <RenderWithMap />
+      {/* <RenderWithMap /> */}
+      <NavBai1 />
+      <HeaderBai1 />
+      <ContentBai1 />
+      <FooterBai1 />
     </div>
   );
 }
